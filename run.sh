@@ -14,7 +14,6 @@ case $userInput in
 		scripts/VM.sh ;;
 	"delete") echo "What would you like to delete? WildflyVM, JenkinsVM, both or everything?"
 		read userChoice
-
 		case $userChoice in
 			"WildflyVM") echo "Deleting WildflyVM"
 				scripts/deleteWFVM.sh ;;
@@ -25,8 +24,8 @@ case $userInput in
 				scripts/deleteWFM.sh ;;
 			"everything") echo "Deleting all resources"
 				scripts/deleteAll.sh ;;
-			*) echo "Sorry please choose either WildflyVM, JenkinsVM, both or everything; these choices are case-sensitve"
-		esac
+			*) echo "Sorry, please select: WildflyVM, JenkinsVM, both or everything, these are case-sensitive"
+		esac ;;
 	*) echo "Sorry, please select either create or delete, these choices are case-sensitive"
 esac
 
