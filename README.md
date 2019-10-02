@@ -1,7 +1,7 @@
 # AutomationShell
 
 ## 1.Important
-This contains in total 10 scripts which will help automate the creation of a virtual machine(vm) on Microsoft Azure, each script can be executed individually though it is not recommend due to do so unless you understand how to set up a virtual network on the cloud due to ordering of the files. These scripts are only for Linux machine, it has been tested on Ubuntu 18.04 LTS
+This contains in total 10 scripts which will help automate the creation of a virtual machine(vm) on Microsoft Azure, each script can be executed individually though it is not recommend due to do so unless you understand how to set up a virtual network on the cloud due to ordering of the files. These scripts hava been tested on Ubuntu 18.04 LTS
 
 ### 2.How to:
 How to run the script, initially clone this repository to your local directory. If you have not downloaded the Microsoft Azure CLI you will need to run the following command:
